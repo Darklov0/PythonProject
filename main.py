@@ -20,5 +20,8 @@ if __name__ == "__main__":
         logger.log("Supergela", "potatoe")
     except Exception as e:
         print(e)
-
+    try:
+        logger.log("zangi", "mate")
+    except Exception as e:
+        print(e)
     logger.info("Application finished")

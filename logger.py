@@ -18,3 +18,4 @@ class Logger:
             raise ValueError('Message must not be null or empty')
         print(f"[{level}]: {message}")
 
+
