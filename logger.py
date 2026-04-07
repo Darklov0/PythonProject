@@ -1,4 +1,4 @@
-import math
+
 
 
 class Logger:
@@ -18,4 +18,6 @@ class Logger:
             raise ValueError('Message must not be null or empty')
         print(f"[{level}]: {message}")
 
-
+    def check_number(self, number):
+        if number > 5000:
+            self.info("This is big number")

@@ -7,6 +7,9 @@ if __name__ == "__main__":
     for i in range(1, 101):
         sum += i
         logger.debug(f"Sum at iteration {i} is {str(sum)}")
+        logger.check_number(sum)
+
+    logger.info(f"sum = {str(sum)}")
 
     logger.info(f"sum = {str(sum)}")
 
