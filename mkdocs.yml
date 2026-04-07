@@ -1,0 +1,6 @@
+site_name: logger.com
+theme:
+  name: "readthedocs"
+plugins:
+  - search
+  - mkdocstrings
