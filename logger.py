@@ -18,4 +18,6 @@ class Logger:
             raise ValueError('Message must not be blank')
         print(f"[{level}]: {message}")
 
-
+    def check_number(self, number):
+        if number > 5000:
+            self.info("This is big number")
